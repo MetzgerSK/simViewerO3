@@ -1,0 +1,30 @@
+Type: Compendium
+Package: simViewerO3
+Title: Simulation results viewer
+Version: 0.0.1
+Authors@R: 
+    person(given = "Shawna",
+			 middle = "K.",
+			 family = "Metzger",
+			 role = c("aut", "cre"),
+			 email = "smetzger@buffalo.edu",
+			 comment = c(Affiliation = "Dept. of Political Science, UB"))
+Description: Shiny app to view simulation results from
+    Jones and Metzger's "Out of Order"
+License: N/A
+Depends: 
+	shiny,
+	shinyjs,
+	magrittr,
+	shinyWidgets,
+	stringr,
+	purrr,
+	glue,
+	dplyr,
+	shinyBS,
+	ggplot2,
+	ggtext,
+	tidyr,
+	magick
+Encoding: UTF-8
+LazyData: true
